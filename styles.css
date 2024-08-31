@@ -1,8 +1,4 @@
-label {
-  background-color: red;
-  color: white;
-}
-
-body {
-  background-color: #e60bbe;
+.main {
+  width: 40%;
+  margin: 0 auto;
 }
