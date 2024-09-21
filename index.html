@@ -3,31 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
+    <title>Grid Example</title>
+    <link rel="stylesheet" href="https://unpkg.com/ionic@latest/css/ionic.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      <div>
-        <label for="usuarioTxt">Usuario</label>
-        <input type="text" id="usuarioTxt" />
-      </div>
-
-      <label for="passwordTxt">Password</label>
-      <input type="text" id="passwordTxt" />
-    </div>
-  </div>
-    <div>
-     <button onclick="iniciarSesion()">INICIAR SESION</button>
-    </div>
-      <div>
-       <button>REGISTRARME</button>
-      </div>
-    </div>
+    <ion-grid>
       
-  </body>
-  <p></p>
-  <script src="script.js"></script>
-</html>
+      <ion-row>
+        <ion-col size="3" size-xs="12">Columna 1</ion-col>
+        <ion-col size="3" size-xs="12">Columna 2</ion-col>
+        <ion-col size="3" size-xs="12">Columna 3</ion-col>
+        <ion-col size="3" size-xs="12">Columna 4</ion-col>
+      </ion-row>
 
+      
+      <ion-row>
+        <ion-col size="12" size-xs="12">Columna única</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="1" size-xs="12">1</ion-col>
+        <ion-col size="1" size-xs="12">2</ion-col>
+        <ion-col size="1" size-xs="12">3</ion-col>
+        <ion-col size="1" size-xs="12">4</ion-col>
+        <ion-col size="1" size-xs="12">5</ion-col>
+        <ion-col size="1" size-xs="12">6</ion-col>
+        <ion-col size="1" size-xs="12">7</ion-col>
+        <ion-col size="1" size-xs="12">8</ion-col>
+        <ion-col size="1" size-xs="12">9</ion-col>
+        <ion-col size="1" size-xs="12">10</ion-col>
+        <ion-col size="1" size-xs="12">11</ion-col>
+        <ion-col size="1" size-xs="12">12</ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col size="6" size-xs="12">Columna 1</ion-col>
+        <ion-col size="2" size-xs="12">Columna 2</ion-col>
+        <ion-col size="3" size-xs="12">Columna 3</ion-col>
+        <ion-col size="1" size-xs="12">Columna 4</ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <script src="https://unpkg.com/ionic@latest/dist/ionic.js"></script>
+  </body>
+</html>
