@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "root": true,
   "ignorePatterns": ["projects/**/*"],
   "overrides": [
@@ -44,16 +43,4 @@
       "rules": {}
     }
   ]
-=======
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
-  "extends": ["eslint:recommended"],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module"
-  }
->>>>>>> bc5bbc9104cecbf288971719ec95d8f027b79b22
 }
