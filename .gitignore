@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
@@ -69,6 +69,4 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-=======
-node_modules
->>>>>>> bc5bbc9104cecbf288971719ec95d8f027b79b22
+
