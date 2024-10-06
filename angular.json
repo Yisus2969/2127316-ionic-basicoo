@@ -5,7 +5,16 @@
   "projects": {
     "app": {
       "projectType": "application",
+<<<<<<< HEAD
       "schematics": {},
+=======
+      "schematics": {
+        "@ionic/angular-toolkit:page": {
+          "styleext": "scss",
+          "standalone": true
+        }
+      },
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,11 +33,14 @@
                 "glob": "**/*",
                 "input": "src/assets",
                 "output": "assets"
+<<<<<<< HEAD
               },
               {
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
@@ -104,11 +116,14 @@
                 "glob": "**/*",
                 "input": "src/assets",
                 "output": "assets"
+<<<<<<< HEAD
               },
               {
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
               }
             ],
             "styles": ["src/global.scss", "src/theme/variables.scss"],
@@ -124,10 +139,14 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
+<<<<<<< HEAD
             "lintFilePatterns": [
               "src/**/*.ts",
               "src/**/*.html"
             ]
+=======
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
           }
         }
       }
@@ -145,6 +164,15 @@
     },
     "@ionic/angular-toolkit:page": {
       "styleext": "scss"
+<<<<<<< HEAD
+=======
+    },
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
     }
   }
 }

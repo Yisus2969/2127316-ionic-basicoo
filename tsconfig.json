@@ -18,10 +18,14 @@
     "importHelpers": true,
     "target": "es2022",
     "module": "es2020",
+<<<<<<< HEAD
     "lib": [
       "es2018", 
       "dom"
     ],
+=======
+    "lib": ["es2018", "dom"],
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {

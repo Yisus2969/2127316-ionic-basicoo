@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "miapp-2127316",
+=======
+  "name": "MiPrimerProyecto",
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -26,8 +30,13 @@
     "@capacitor/haptics": "6.0.1",
     "@capacitor/keyboard": "6.0.2",
     "@capacitor/status-bar": "6.0.1",
+<<<<<<< HEAD
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.0.0",
+=======
+    "@ionic/angular": "^8.3.1",
+    "ionicons": "^7.2.1",
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"
@@ -60,5 +69,9 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.4.0"
   },
+<<<<<<< HEAD
   "description": "An Ionic project"
+=======
+  "description": "Mi Ionic proyecto"
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 }
