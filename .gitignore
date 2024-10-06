@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
@@ -68,5 +72,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 /babel-cache/
 /.angular/cache
+=======
+
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd

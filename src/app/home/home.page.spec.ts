@@ -16,7 +16,11 @@ describe('HomePage', () => {
     expect(component).toBeTruthy();
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 =======
 });
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd

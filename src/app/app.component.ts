@@ -10,7 +10,11 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 export class AppComponent {
   constructor() {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 =======
 }
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd

@@ -1,15 +1,21 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "miApp-2127316",
   "integrations": {
     "capacitor": {}
   },
   "type": "angular"
 =======
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
   "name": "MiPrimerProyecto",
   "integrations": {
     "capacitor": {}
   },
   "type": "angular-standalone"
+<<<<<<< HEAD
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
+=======
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 }

@@ -6,14 +6,20 @@
     "app": {
       "projectType": "application",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "schematics": {},
 =======
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
       "schematics": {
         "@ionic/angular-toolkit:page": {
           "styleext": "scss",
           "standalone": true
         }
       },
+<<<<<<< HEAD
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
+=======
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
       "root": "",
       "sourceRoot": "src",
@@ -34,11 +40,14 @@
                 "input": "src/assets",
                 "output": "assets"
 <<<<<<< HEAD
+<<<<<<< HEAD
               },
               {
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 =======
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
               }
@@ -117,11 +126,14 @@
                 "input": "src/assets",
                 "output": "assets"
 <<<<<<< HEAD
+<<<<<<< HEAD
               },
               {
                 "glob": "**/*.svg",
                 "input": "node_modules/ionicons/dist/ionicons/svg",
                 "output": "./svg"
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 =======
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
               }
@@ -140,10 +152,14 @@
           "builder": "@angular-eslint/builder:lint",
           "options": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "lintFilePatterns": [
               "src/**/*.ts",
               "src/**/*.html"
             ]
+=======
+            "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
 =======
             "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
@@ -165,13 +181,19 @@
     "@ionic/angular-toolkit:page": {
       "styleext": "scss"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
     },
     "@angular-eslint/schematics:application": {
       "setParserOptionsProject": true
     },
     "@angular-eslint/schematics:library": {
       "setParserOptionsProject": true
+<<<<<<< HEAD
+>>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
+=======
 >>>>>>> 07905ce399c76d79e5c64cf04f0784c10aaa11dd
     }
   }
