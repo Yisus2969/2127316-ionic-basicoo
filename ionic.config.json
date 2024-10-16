@@ -1,0 +1,7 @@
+{
+  "name": "MiPrimerProyecto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
