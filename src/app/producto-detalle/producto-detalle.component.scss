@@ -1,0 +1,47 @@
+// Variables
+$primary-color: #6200ea; // Color principal
+$secondary-color: #ffffff; // Color secundario
+
+$text-color: #6200ea; // Color de texto
+
+// Estilo para la tarjeta de detalles del producto
+ion-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 16px 0; // Espaciado superior e inferior
+}
+
+// Título del producto
+ion-card-title {
+  font-size: 1.5rem; // Tamaño de fuente para el título
+  color: $primary-color;
+  text-align: center; // Centrar el título
+  margin-bottom: 16px; // Espacio debajo del título
+}
+
+// Contenido de la tarjeta
+ion-card-content {
+  text-align: center; // Centrar el contenido
+}
+
+// Estilo para la imagen del producto
+img {
+  max-width: 100%; // Asegura que la imagen no exceda el ancho de la tarjeta
+  height: auto; // Mantiene la proporción
+  border-radius: 8px; // Esquinas redondeadas
+  margin-bottom: 16px; // Espacio debajo de la imagen
+}
+
+// Estilo para la descripción del producto
+p {
+  font-size: 1rem; // Tamaño de fuente para la descripción
+  color: $text-color; // Color del texto
+  margin-bottom: 16px; // Espacio debajo del párrafo
+}
+
+// Estilo para el precio
+h2 {
+  font-size: 1.5rem; // Tamaño de fuente para el precio
+  color: $secondary-color; // Color secundario para el precio
+  margin: 8px 0; // Espacio arriba y abajo
+}
