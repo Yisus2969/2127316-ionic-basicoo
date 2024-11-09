@@ -1,0 +1,9 @@
+/* efecto sencillo para los productos */
+.producto-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* transicion */
+  }
+  
+  .producto-card:hover {
+    transform: scale(1.05); /* aumentar el tamaño */
+     }
+     
