@@ -1,0 +1,72 @@
+// Variables
+$primary-color: #6200ea; // Color principal
+$secondary-color: #03dac6; // Color secundario
+$text-color: #212121; // Color de texto
+
+
+
+
+ion-grid {
+  max-width: 1500px; // Ajusta según sea necesario
+  margin: 5 auto; // Centra el grid
+}
+
+
+// Estilo para las tarjetas de producto
+.producto-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin-bottom: 16px; // Espaciado entre las tarjetas
+  flex: 0 1 calc(20% - 16px); // Cambié a un 20% del ancho
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &-header {
+    font-size: 0.85rem; // Tamaño de fuente reducido
+    font-weight: bold;
+    color: $primary-color;
+    text-align: center;
+    padding: 4px; // Reduje el padding
+  }
+
+  img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 100%; // Asegura que la imagen no se desborde
+  }
+}
+
+// Estilo para el precio
+h2 {
+  font-size: 0.9rem; // Tamaño de fuente ajustado
+  color: $secondary-color;
+  text-align: center;
+  margin: 4px 0; // Ajusté el margen
+}
+
+// Estilo para el texto del producto
+p {
+  color: $text-color;
+  font-size: 0.75rem; // Tamaño de fuente ajustado
+  text-align: center;
+  padding: 0 4px; // Reduje el padding
+}
+
+// Media Queries para ajustar en dispositivos pequeños
+@media (max-width: 768px) {
+  .producto-card {
+    flex: 0 1 calc(45% - 16px); // Ocupa el 45% en pantallas pequeñas
+  }
+}
+
+@media (max-width: 480px) {
+  .producto-card {
+    flex: 0 1 calc(100% - 16px); // Ocupa todo el ancho en móviles
+  }
+}
