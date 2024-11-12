@@ -1,0 +1,37 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pomodoro Timer</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content> 
+  <div [ngClass]="esPomodoro ? 'pomodoro-background' : 'break-background'" class="main"> 
+    
+    <!-- las pesta;as de POMODORO y el de BREAK  -->
+    <div class="tabs">
+      <span 
+        [ngClass]="{ 'active': esPomodoro }" 
+        (click)="alternarModo('pomodoro')">POMODORO
+      </span>
+      <span 
+        [ngClass]="{ 'active': !esPomodoro }" 
+        (click)="alternarModo('break')">BREAK
+      </span>
+    </div> 
+
+     <div class="time-display">{{ temporizador }}</div>
+     <ion-card-content>
+      <ion-button 
+        expand="block" 
+        (click)="alternarModo(esPomodoro ? 'break' : 'pomodoro')"
+        [ngClass]="esPomodoro ? 'pomodoro-btn' : 'break-btn'">
+        {{ esPomodoro ? 'Ir a Break' : 'Ir a Pomodoro' }}
+      </ion-button>
+    </ion-card-content>
+  </div>
+  
+</ion-content>
+
+
+

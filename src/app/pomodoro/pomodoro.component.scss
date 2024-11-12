@@ -1,0 +1,87 @@
+
+
+
+.main {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .pomodoro-background {
+    background-color: #7e4280; 
+  }
+  
+  .break-background {
+    background-color: #98d2a2; 
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tabs span {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .tabs span.active {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+  
+  .time-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  ion-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #7e4280;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80%;
+    margin: 10px auto;
+  }
+  
+
+ /* Estilo para el botón de Pomodoro */
+.pomodoro-btn {
+    background-color: #7e4280;
+    color: white;
+    border: 2px solid #7e4280;
+  }
+  
+  /* Estilo para el botón de Break */
+  .break-btn {
+    background-color: #98d2a2;
+    color: white;
+    border: 2px solid #98d2a2;
+  
+ }
+ .pomodoro-btn:hover {
+    background-color: #6a1e69;
+    border-color: #4b1451;
+    color: #ffffff;
+  }
+  
+  /* Hover para el botón de Break */
+  .break-btn:hover {
+    background-color: #6ba56a;
+    border-color: #4b9b4b;
+    color: #ffffff;
+  }
+
+
+

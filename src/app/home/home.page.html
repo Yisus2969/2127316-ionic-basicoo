@@ -1,27 +1,14 @@
-<p  *ngIf="verdadero">si ves este mensaje, <strong>verdadero</strong> es <strong> true</strong></p>
-    
-<p [ngClass]="{'rojo': verdadero, 'azul': !verdadero }">Si <strong> verdadero </strong> es verdadero, este texto sera <strong>rojo</strong>, pero si es falso, entonces sera <strong> azul.</strong></p> 
-<p [ngClass]="{'rojo': verdadero, 'azul': verdadero }">Si <strong> verdadero </strong> es verdadero, este texto sera <strong>rojo</strong>, pero si es falso, entonces sera <strong> azul.</strong></p> 
+<ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Pomodoro con angular
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <app-pomodoro></app-pomodoro>
+  </ion-content>
+  
 
   
-<ion-header translucent="true">
-    <ion-toolbar>
-        <ion-title> 
-            {{ title }}
-        </ion-title>
-    </ion-toolbar>
-</ion-header>
-
-<ion-content>
-    <div id="container">
-        <ion-button (click)="hazmeClic()">Hazme clic!</ion-button>
-    </div>
-    <div id="container">
-        <img [src]="'https://c.tenor.com/CBJ7HeRsMJwAAAAC/monkey-teclado.gif'" />
-    </div>
-    <div id="container">
-        <p>Inserta el nombre del alumno en el campo:</p>
-        <ion-input [(ngModel)]="nombreAlumno" ></ion-input>
-        <ion-label>El alumno se llama: <strong>{{ nombreAlumno }}</strong></ion-label>
-    </div>
-</ion-content>
