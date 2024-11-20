@@ -2,8 +2,8 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 //import { IonButton } from '@ionic/angular';
 
+//import { CamaraComponent } from './camara.component';
 import { CamaraComponent } from './camara.component';
-
 describe('CamaraComponent', () => {
   let component: CamaraComponent;
   let fixture: ComponentFixture<CamaraComponent>;

@@ -1,3 +1,28 @@
 
-  <ion-button (click)="tomarFoto()">Tomar Foto</ion-button>
+  
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Cámara</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <!-- voton para tomar foto -->
+    <ion-button (click)="tomarFoto()" expand="block" color="primary">
+      <ion-icon slot="start" name="camera"></ion-icon> 
+      Tomar Foto
+    </ion-button>
+    <!-- profe nose porque no se ve el simbolo ya jale varios y aun asi no pude :'v nose si me este olvidando algo 
+    
+    
+  
+    <!-- Grid para ense;ar las fotos -->
+    <ion-grid>
+      <ion-row>
+        <ion-col size="3" *ngFor="let foto of fotos">
+          <img [src]="foto.webViewPath" alt="Foto capturada" style="width: 100%; border-radius: 8px;">
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
   
