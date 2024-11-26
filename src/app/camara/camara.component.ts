@@ -1,5 +1,6 @@
 import { Component} from '@angular/core';
 import { FotoServiceService } from '../foto-service.service';
+import { CommonModule } from '@angular/common';
 //import { FotoService } from '../foto.service';
 import { IonButton, IonIcon, IonRow, IonCol, IonGrid, IonContent, IonTitle, IonToolbar, IonHeader} from '@ionic/angular/standalone';
 import { Foto } from '../foto.model';
@@ -8,7 +9,7 @@ import { Foto } from '../foto.model';
   templateUrl: './camara.component.html',
   standalone: true,
   styleUrls: ['./camara.component.scss'],
-  imports: [IonButton, IonIcon, IonRow, IonCol, IonGrid, IonContent, IonTitle, IonToolbar, IonHeader]
+  imports: [IonButton, IonIcon, IonRow, IonCol, IonGrid, IonContent, IonTitle, IonToolbar, IonHeader, CommonModule]
 })
 
 export class CamaraComponent {
